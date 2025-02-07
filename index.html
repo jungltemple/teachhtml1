@@ -10,5 +10,15 @@
     <h1 class="text-5xl mb-4">Hello there!</h1>
     <p class="mb-2">Hey there Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores voluptatibus possimus similique beatae quisquam vitae veniam laudantium officiis, veritatis eveniet, assumenda sunt, iure sapiente commodi et quas nostrum sint.</p>
     <img src="https://imgs.search.brave.com/zvjJ5doqGwuNTGlHWNvIUQZBIibVG4MhslyXHuV5ZT4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3ZjViZGNlZjEw/MTRjMGI1ZTQ4OWMu/cG5n" alt="HTML logo">
+
+    <a href="./page/index.html" class="bg-white text-black p-2 rounded mt-4">Go to another page!</a>
+    <button class="bg-white text-black p-2 rounded mt-4" onclick="change()">Click here to add some text.</button>
+    <p id="changing"></p>
+
+    <script>
+        function change() {
+            document.getElementById("changing").innerHTML = "Hello there!";
+        }
+    </script>
 </body>
-</html> 
+</html>
